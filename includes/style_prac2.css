@@ -1,0 +1,303 @@
+﻿body {
+	color: #003399;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 10px 10px;
+	padding: 0px;
+	background-image: url('../images/clock.jpg');
+}
+.clear{clear:both;}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+#container {
+	margin: 0px auto;
+	text-align: left;
+	height: 717px;
+	width: 717px;
+	position:relative;
+	
+}
+a{
+	font-size:12px;
+}
+p{
+	margin: 15px 0px;
+}
+/********************** Header ***************************/
+#header {
+	margin: 0px 0px 0px 0px;
+	background-image:url(images/logo copy.jpg);
+	width:717px;
+	height:187px;
+	position:relative;
+}
+
+
+
+ul.cssMenu ul{display:none;}
+ul.cssMenu li:hover>ul{display:block;}
+ul.cssMenu ul{position: absolute;left:1px;top:100%px;}
+ul.cssMenu ul ul{position: absolute;left:98%;top:-2px;}
+ul.cssMenu,ul.cssMenu ul {
+ 	position: absolute;left:1px;top:155px;
+	list-style:none;
+	padding:0px 2px 2px 0px;
+	background-color:#0000ff;
+	background-repeat:repeat;
+	border-color:#AAAAAA;
+	border-width:1px;
+	border-style:solid;
+	padding:5px 0px 0px 0px; 
+
+	
+}
+ul.cssMenu table {border-collapse:collapse}ul.cssMenu {
+	text-align:center;
+	background-color:#0000ff;
+	background-repeat:repeat;
+	height:32px;
+	border: 3px solid #FFFFFF;
+	width:711px;
+	display:block;
+	zoom:1;
+	float: left;
+}
+ul.cssMenu ul{
+	width:165.95000000000002px;
+	position: absolute;left:0px;top:22px;
+	background-color:#0000ff;
+	background-repeat:repeat;
+	border-color:#AAAAAA;
+	border-width:1px;
+	border-style:solid;
+}
+ul.cssMenu li{
+	display:block;
+	margin:2px 0px 0px 2px;
+	font-size:0px;
+	
+}
+ul.cssMenu a:active, ul.cssMenu a:focus {
+outline-style:none;
+text-decoration:none;
+	color:#;
+	/* margin: 0px 20px; */
+}
+ul.cssMenu a, ul.cssMenu li.dis a:hover, ul.cssMenu li.sep a:hover {
+	
+	display:block;
+	vertical-align:middle;
+	background-color:#0000ff;
+	border-width:0px;
+	border-color:#6655ff;
+	border-style:solid;
+	text-align:left;
+	text-decoration:none;
+	padding:4px;
+	_padding-left:0;
+	font:12.5px Verdana;
+	color: #FFFfff;
+	text-decoration:none;
+	/*cursor:default; */
+}
+
+}
+ul.cssMenu span{
+	overflow:hidden;
+}
+ul.cssMenu li {
+	float:left;
+
+}
+ul.cssMenu ul li {
+	float:none;
+}
+ul.cssMenu ul a {
+	text-align:left;
+	white-space:nowrap;
+	text-decoration:none;
+	color:#;
+	margin: 0px 15px;
+}
+ul.cssMenu li.sep{
+	text-align:center;
+	padding:0px;
+	line-height:0;
+	height:100%;
+}
+ul.cssMenu li.sep span{
+	float:none;	padding-right:0;
+	width:5;
+	height:16;
+	display:inline-block;
+	background-color:#AAAAAA;	background-image:none;}
+ul.cssMenu ul li.sep span{
+	width:80%;
+	height:3;
+}
+ul.cssMenu li:hover{
+	position:relative;
+}
+
+ul.cssMenu li a:hover{
+	position:relative;
+	background-color:#;
+	border-color:#665500;
+	border-style:solid;
+	font:12.5px Verdana;
+	color: #ffcccc;
+	text-decoration:none;
+}
+ul.cssMenu li.dis a {
+	color: #AAAAAA !important;
+}
+ul.cssMenu img {border: none;float:left;_float:none;margin-right:4px;width:16px;
+height:16px;
+}
+ul.cssMenu ul img {width:16px;
+height:16px;
+}
+ul.cssMenu img.over{display:none}
+ul.cssMenu li.dis a:hover img.over{display:none !important}
+ul.cssMenu li.dis a:hover img.def {display:inline !important}
+ul.cssMenu li:hover > a img.def  {display:none}
+ul.cssMenu li:hover > a img.over {display:inline}
+ul.cssMenu a:hover img.over,ul.cssMenu a:hover ul img.def,ul.cssMenu a:hover a:hover ul img.def,ul.cssMenu a:hover a:hover img.over,ul.cssMenu a:hover a:hover a:hover img.over{display:inline}
+ul.cssMenu a:hover img.def,ul.cssMenu a:hover ul img.over,ul.cssMenu a:hover a:hover ul img.over,ul.cssMenu a:hover a:hover img.def,ul.cssMenu a:hover a:hover a:hover img.def{display:none; color:#28556b;}
+ul.cssMenu a:hover ul,ul.cssMenu a:hover a:hover ul{display:block; }
+ul.cssMenu a:hover ul ul{display:none}
+ul.cssMenu span{
+	display:block;
+	background-image:url(../images/arrv_anim_1.gif);
+	background-position:right center;
+	background-repeat: no-repeat;
+   padding-right:11px;}
+ul.cssMenu li:hover>a>span{	background-image:url(../images/arrv_anim_1o.gif);
+}
+ul.cssMenu a:hover span{	_background-image:url(../images/arrv_anim_1o.gif);}
+ul.cssMenu ul span,ul.cssMenu a:hover table span{background-image:url(../images/arr_double_1.gif);}
+ul.cssMenu ul li:hover > a span{	background-image:url(../images/arr_double_1o.gif); color:#28556b;}
+ul.cssMenu table a:hover span,ul.cssMenu table a:hover a:hover span{background-image:url(./images/arr_double_1o.gif)}
+ul.cssMenu table a:hover table span{background-image:url(../images/arr_double_1.gif)}
+
+/* Sub Menu Hover Styles */
+#header li ul a:hover { 
+	color:#ffcccc;; 
+	background: #; 
+} 
+
+#logo_w2 {
+	background-image: url(images/logo copy.jpg);
+}
+
+#logo_w2{
+	top:6px;
+	left:6px;
+}
+#header_text {
+	top:97px;
+	left:39px;
+	width:500px;
+	position:absolute;
+	height: 60px;
+}
+#header_text p{
+	font-size: 14px;
+	font-style:bold;
+	color:#FFFFFF;
+}
+#header_text a{color:#28556b;}
+#header_text a:hover{color:#ffffff;}
+/********************** Content ***************************/
+#content {
+	background-image:url(../images/content_bg.gif);
+	width:717px;
+	margin-top:15px;
+}
+img{
+	border-width:0px;
+}
+h1{
+	color:#000000;
+	font-size:14px;
+	margin: 20px 0px 20px 0px;
+}
+
+h2{
+	color:#85a157;
+	font-size:14px;
+	text-align:center;
+	width:200px;
+	margin: 10px 0px 15px 0px;
+}
+#left {
+	float:left;
+	width:717px;
+	height:auto;
+
+	/*top: 200px;*/
+	margin-left:1px;
+	padding: 0px 10px 30px 0px;
+	display:inline;
+	font-size:13px;
+}
+#left a{color:#28556b;}
+#left a:hover{color:#c77e0c;}
+#photos a{
+	margin-right:14px;
+}
+#welcome {
+float:right;
+	width:250px;
+	padding: 0px 20px 20px 20px;
+	margin-top:135px;
+	font-size:12px;
+	color: #FFFFFF;
+}
+#Layer1{
+float:right;
+}
+
+/*#right {
+	float:right;
+	width:1px;
+	padding: 0px 20px 20px 20px;
+	margin-top:10px;
+	border-left: #FFF 2px solid;
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
+}
+#right a{
+	color:#c77e0c;
+}
+#right a:hover{
+	color:#85a157;
+}
+*/
+
+/********************** Footer ***************************/
+#footerline {
+clear:both;
+background-image:url(../images/footer_bg_copy.gif);
+font-size:3px;
+height:10px;
+}
+#footerline  a{
+	color:#28556b;
+}
+#footerline a:hover{
+	color:#85a157;
+}
+#footer {
+	width:717px;
+	text-align:center;
+	padding: 20px 0px;
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> origin/master
