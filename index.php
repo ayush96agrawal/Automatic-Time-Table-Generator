@@ -89,7 +89,7 @@ die('That user does not exist in our database. Please contact the administrator 
 }
 while($info = mysqli_fetch_array( $check )) 
 {
-$_POST['pass'] = stripslashes($_POST['pass']);
+$get_POST['pass'] = stripslashes($get_POST['pass']);
 $info['userpass'] = stripslashes($info['userpass']);
 $_POST['pass'] = $_POST['pass'];
 $dept_id = $info['dept_id'];
@@ -309,7 +309,7 @@ else
             <tr>
               <td colspan="2"><h1 align="center">User Login</h1></td>
             </tr>
-           <!-- <tr>
+           <tr>
               <td>Username:</td>
               <td><input type="text" name="username" maxlength="40" />
               </td>
@@ -326,7 +326,7 @@ else
                <tr>
               <td colspan="2" align="center">
               </td>
-            </tr>-->
+            </tr>
 			<tr>
 			<td><input type="submit" name="cmdSubmit1" value="Admin Login" />
 			</td>
